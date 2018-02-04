@@ -9,5 +9,5 @@ def turn_count(board)
 end
 
 def is_occupied?(space)
-
+  space == "X" || space =="O" ? true : false
 end
