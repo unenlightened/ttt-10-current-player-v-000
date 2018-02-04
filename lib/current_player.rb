@@ -3,8 +3,7 @@ def turn_count(board)
   board.each do |space|
     if is_occupied(board[space])
       count += 1
-    else
-      count
+    end
   end
  count
 end
