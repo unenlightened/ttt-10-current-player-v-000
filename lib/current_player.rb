@@ -1,7 +1,7 @@
 def turn_count(board)
   count = 0
   board.each do |space|
-   if space.even?
+   if space.to_i.even?
      count += 1
    end
   end
