@@ -6,7 +6,7 @@ def turn_count(board)
     else
       count
   end
- count
+
 end
 
 def is_occupied?(space)
